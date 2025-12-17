@@ -29,6 +29,37 @@ p {
 }
 
 
+/* CONTENEDOR para ver mejor los inline-block */
+.contenedor-inline-block {
+    border: 1px dashed #aaa;
+    padding: 10px;
+}
+
+/* INLINE-BLOCK: se alinean en fila, pero sí respetan width/height */
+.caja-inline-block {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    margin: 4px;
+    line-height: 60px; /* centra el texto verticalmente */
+    background-color: #a3d5ff;
+}
+
+input{
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    background-color: #7678ed;
+}
+
+input:hover{
+    background-color: #7678ed;
+    color: rgb(255, 255, 255);
+}
+
+div {
+  background-color: rgb(255, 255, 255, 0.2);
+}
 
 /*Paleta de colores daltonic friedly: 
     #3d348b

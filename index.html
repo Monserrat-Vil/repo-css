@@ -136,8 +136,53 @@
             <br>
             <a href="https://business.daily.dev/resources/programming-language-trends-what-developers-are-using-now">Programming Language Trends 2025</a>
         </div>
-</body>
+
+<div id="contactame">
+
+    </div>
+        <form action="#" method="post">
+        <h2>Contáctame</h2>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <button type="submit">Enviar</button>
+        </form>
+        
+        <!-- Sección de ejemplos de display -->
+    <section id="ejemplos-display">
+        <h2>Ejemplos de display</h2>
+
+        <h3>display: block</h3>
+        <p>Las cajas block ocupan todo el ancho disponible y se colocan una debajo de la otra:</p>
+        <div class="caja caja-block">Caja BLOCK 1</div>
+        <div class="caja caja-block">Caja BLOCK 2</div>
+
+        <h3>display: inline</h3>
+        <p>Las cajas inline se comportan como texto: se ponen una junto a la otra y no respetan width/height:</p>
+        <p>
+            Texto normal
+            <span class="caja caja-inline">INLINE 1</span>
+            más texto
+            <span class="caja caja-inline">INLINE 2</span>
+            y más texto
+            <span class="caja caja-inline">INLINE 3</span>
+        </p>
+
+        <h3>display: inline-block</h3>
+        <p>Las cajas inline-block se alinean una junto a otra, pero sí respetan width y height:</p>
+        <div class="contenedor-inline-block">
+            <div class="caja caja-inline-block">INLINE-BLOCK 1</div>
+            <div class="caja caja-inline-block">INLINE-BLOCK 2</div>
+            <div class="caja caja-inline-block">INLINE-BLOCK 3</div>
+        </div>
+    </section>
+
+
 <footer>
 
 </footer>
+</body>
 </html>
