@@ -139,6 +139,16 @@ table{
     color: #f7b801;
 }
 
+.contenedor-referencias {
+    border: 1px dashed #7678ed;
+    padding: 1rem;
+    
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start; /*alineación horizontal (ROW en flex-direction) */
+    align-items: flex-start; /*alineación vertical (COLUMN en flex-direction)*/
+}
 
 /*Paleta de colores daltonic friedly: 
     #3d348b
