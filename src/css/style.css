@@ -1,3 +1,7 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     background-color: #3d348b;
 }
@@ -5,7 +9,7 @@ body {
 /*Estilo para todos los parráfos (etiqueta p)*/
 
 p {
-    font-size: 18px;
+    font-size: small;
     color: #f18701;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,6 +32,9 @@ p {
     color: #3d348b;
 }
 
+.mi-clase a{
+    color: #f7b801;
+}
 
 /* CONTENEDOR para ver mejor los inline-block */
 .contenedor-inline-block {
@@ -36,6 +43,15 @@ p {
 }
 
 /* INLINE-BLOCK: se alinean en fila, pero sí respetan width/height */
+.caja {
+    background-color: #aea5ff;
+    border: 1px solid #333;
+    padding: 8px;
+    margin: 6px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
 .caja-inline-block {
     display: inline-block;
     width: 120px;
@@ -45,6 +61,12 @@ p {
     background-color: #a3d5ff;
 }
 
+.caja-block{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
 input{
     width: 100px;
     height: 40px;
@@ -60,6 +82,63 @@ input:hover{
 div {
   background-color: rgb(255, 255, 255, 0.2);
 }
+
+/* Ejemplo Box Model*/
+#box-model-demo {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #CCC;
+}
+
+.box-demo {
+    width: 200px;
+    height: 100px;
+    padding: 20px; /*espacio interno*/
+    border: 5px solid #333;
+    margin: 15px; /*espacio externo*/
+    background-color: #f7b801;
+    color:#3d348b;
+}
+
+#box-sizing-demo{
+    margin-top: 40px;
+}
+
+.box-cb,
+.box-bb{
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 5px solid #333;
+    background-color: #aea5ff;
+    color: #333;
+}
+
+.box-cb{
+    width: 200px;
+    box-sizing: content-box;
+}
+
+.box-bb{
+    width: 200px;
+    box-sizing: border-box;
+    background-color: #00e768;
+}
+
+/*Ejemplo herencia*/
+
+h1{
+    color: #3d348b;
+}
+
+.mi-clase h1{
+    color: #a3d5ff;
+}
+
+table{
+    background-color: #aea5ff;
+    color: #f7b801;
+}
+
 
 /*Paleta de colores daltonic friedly: 
     #3d348b
