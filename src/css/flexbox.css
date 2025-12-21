@@ -56,3 +56,30 @@ section {
     justify-content: flex-start; /*alineación horizontal (ROW en flex-direction) */
     align-items: flex-start; /*alineación vertical (COLUMN en flex-direction)*/
 }
+
+/* Estilos clase 5*/
+.contenedor-centro {
+    border: 1px dashed #4b5563;
+    background: #3f4043;
+    height: 200px;
+    margin-top: .5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-demo {
+    height: 35px;   
+}
+
+.caja-small {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.contenedor-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
