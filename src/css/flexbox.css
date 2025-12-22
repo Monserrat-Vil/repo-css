@@ -80,6 +80,49 @@ section {
 }
 
 .contenedor-wrap {
+    border: 1px dashed #4b5563;
+    padding: 1rem;
+
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+
+.contenedor-align-self {
+    border: 1px dashed #4b5563; 
+    padding: 1rem;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+}
+
+.caja-diferente {
+    align-self: flex-end;
+    background-color: #ef4444;
+}
+
+.contenedor-grow {
+    border: 1px dashed#4b5563;
+    padding: 1rem;
+
+    display: flex;
+}
+
+.contenedor-grow .caja {
+    width: 80px;
+}
+
+.grow-1 {
+    flex-grow: 1; /*Crece para llenar el espacio disponible*/
+    flex-shrink: 1; /* puede reducir su tamaño si es necesario*/
+}
+
+.grow-2 {
+    flex-grow: 2; /*Crece para llenar el espacio disponible*/
+    flex-shrink: 1; /* puede reducir su tamaño si es necesario*/
+}
+
+.grow-3 {
+    flex-grow: 3; /*Crece para llenar el espacio disponible*/
+    flex-shrink: 3; /* puede reducir su tamaño si es necesario*/
 }
